@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mastermind-js</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<main class="flex-container">
+
+
+			<div class="flex-item1">
+			<img src="img/mastermind.jpg" id="logo">
+			<div id="colors"></div>
+			<div id="tekst1"></div>
+			<div class="flex-dots"></div>
+			<div id="text">Kies uw kleurencombinatie</div>
+			<div class="flex-item2">
+				<button class="dot1" onclick="addcolor('0');"></button>
+				<button class="dot2" onclick="addcolor('1');"></button>
+				<button class="dot3" onclick="addcolor('2');"></button>
+				<button class="dot4" onclick="addcolor('3');"></button>
+				<button class="dot4A" onclick="addcolor('4');"></button>
+				<button class="dot4B" onclick="addcolor('5');"></button>
+		</div>
+			</div>
+
+
+
+
+
+
+
+
+		<div class="flex-item3">
+				<div id="frame">
+					<div class="flex-item4">
+						<div id="game"></div>
+						<div id="optelbol_1" class="vakje"></div>
+						<div id="optelbol_2" class="vakje"></div>
+						<div id="optelbol_3" class="vakje"></div>
+						<div id="optelbol_4" class="vakje"></div>
+					</div>
+					<div id="render">
+
+					</div>
+			</div>
+		</div>
+
+</div>
+
+				<div class="flex-item6">
+					<div id="uitleg">
+						<h3>Mastermind</h3>
+						<p>De codemaker kiest in het geheim vier code-pionnen en plaatst deze in een 
+							gekozen volgorde achter het zichtschermpje. Het is toegelaten om twee of meer 
+							pionnen in dezelfde kleur te kiezen. De codemaker heeft de keuze uit vier 
+							verschillende kleuren. Dit is de verborgen code die de codebreker 
+							moet gaan ontrafelen.In zijn beurt plaatst de codebreker vier code-pionnen naar keuze in de eerste lege rij. Nu geeft de codemaker met de
+							sleutel-pinnen het resultaat: met zwarte pinnen: hoeveel kleuren staan op de juiste positie?
+							met witte pinnen: hoeveel kleuren komen wel in de code voor, maar staan niet op de juiste positie?
+						</p>Met deze nieuwe informatie plaatst de codebreker vier volgende code-pionnen in de eerstvolgende lege rij.
+					</div>
+				</div>
+
+</div>
+</main>
+
+
+<script type="text/javascript" src="js/game.js?i=1"></script>
+
+
+</body>
+</html>
